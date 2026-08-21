@@ -1,11 +1,11 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-import JSONLab from './components/JSON.vue'
+import LibraryRegistrationForm from './components/LibraryRegistrationForm.vue'
 </script>
 
 <template>
-  <JSONLab />
+  <!-- <JSON /> -->
+  <!-- <JSONSolution /-->
+  <LibraryRegistrationForm />
 </template>
 
 <style scoped>
