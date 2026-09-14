@@ -30,7 +30,8 @@ const auth = getAuth()
 
 const roleMap = {
   'admin.w7@example.com': 'admin',
-  'member.w7@example.com': 'member'
+  'member.w7@example.com': 'member',
+  'member.w8@example.com': 'member'
 }
 
 const signin = async () => {

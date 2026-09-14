@@ -9,6 +9,7 @@ import { isAuthenticated } from '../auth'
 import FirebaseSigninView from '../views/FirebaseSigninView.vue'
 import FirebaseRegisterView from '../views/FirebaseRegisterView.vue'
 import RoleDashboardView from '../views/RoleDashboardView.vue'
+import AddBookView from '@/views/AddBookView.vue'
 
 const routes = [
   {
@@ -49,6 +50,11 @@ const routes = [
     name: 'RoleDashboard',
     component: RoleDashboardView
   },
+  {
+    path: '/addbook',
+    name: 'AddBook',
+    component: AddBookView
+  }
 ]
 
 const router = createRouter({

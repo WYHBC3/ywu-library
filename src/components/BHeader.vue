@@ -15,7 +15,10 @@ const handleLogout = () => {
     <header class="d-flex justify-content-center py-3">
       <ul class="nav nav-pills">
         <li class="nav-item">
-          <router-link to="/" class="nav-link" active-class="active"> Home (Week 5) </router-link>
+          <router-link to="/" class="nav-link" active-class="active"> Home</router-link>
+        </li>
+        <li class="nav-item">
+            <router-link to="/addbook" class="nav-link" active-class="active">Add Book</router-link>
         </li>
 
         <li v-if="!isAuthenticated" class="nav-item">
@@ -46,6 +49,7 @@ const handleLogout = () => {
               Firebase Register
             </router-link>
           </li>
+
         </template>
       </ul>
     </header>
