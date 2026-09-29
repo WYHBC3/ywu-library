@@ -10,6 +10,7 @@ import FirebaseSigninView from '../views/FirebaseSigninView.vue'
 import FirebaseRegisterView from '../views/FirebaseRegisterView.vue'
 import RoleDashboardView from '../views/RoleDashboardView.vue'
 import AddBookView from '@/views/AddBookView.vue'
+import GetBookCountView from '@/views/GetBookCountView.vue'
 
 const routes = [
   {
@@ -43,18 +44,23 @@ const routes = [
   {
     path: '/FireRegister',
     name: 'FireRegister',
-    component: FirebaseRegisterView
+    component: FirebaseRegisterView,
   },
   {
     path: '/role-dashboard',
     name: 'RoleDashboard',
-    component: RoleDashboardView
+    component: RoleDashboardView,
   },
   {
     path: '/addbook',
     name: 'AddBook',
-    component: AddBookView
-  }
+    component: AddBookView,
+  },
+  {
+    path: '/getbookcount',
+    name: 'GetBookCount',
+    component: GetBookCountView,
+  },
 ]
 
 const router = createRouter({

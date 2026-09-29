@@ -3,17 +3,17 @@ import { getFirestore } from 'firebase/firestore'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBojuq5xCDlAGpAgcSJh8DKhIU4T9vwcIY",
-  authDomain: "fit5032-7470b.firebaseapp.com",
-  projectId: "fit5032-7470b",
-  storageBucket: "fit5032-7470b.firebasestorage.app",
-  messagingSenderId: "532628694443",
-  appId: "1:532628694443:web:8ac56a1b36b98a6fce1eee"
-};
+  apiKey: 'AIzaSyBGDp0feQOvBa5XP4OyNPatfD8DJ1wvI-w',
+  authDomain: 'fit5032-lab9-bcfb9.firebaseapp.com',
+  projectId: 'fit5032-lab9-bcfb9',
+  storageBucket: 'fit5032-lab9-bcfb9.firebasestorage.app',
+  messagingSenderId: '424901976645',
+  appId: '1:424901976645:web:92a71bf0a5454f71d6792c',
+}
 
 // Initialize Firebase
 const firebaseApp = initializeApp(firebaseConfig)
 
 // Initialize Firestore
-const db = getFirestore(firebaseApp);
+const db = getFirestore(firebaseApp)
 export default db
