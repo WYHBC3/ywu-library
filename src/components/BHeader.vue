@@ -27,6 +27,24 @@ const handleLogout = () => {
           </router-link>
         </li>
 
+        <li class="nav-item">
+          <router-link to="/WeatherCheck" class="nav-link" active-class="active">
+            Get Weather
+          </router-link>
+        </li>
+
+        <li class="nav-item">
+          <router-link to="/CountBookAPI" class="nav-link" active-class="active">
+            Count Book API
+          </router-link>
+        </li>
+
+        <li class="nav-item">
+          <router-link to="/GetAllBookAPI" class="nav-link" active-class="active">
+            Get All Books API
+          </router-link>
+        </li>
+
         <li v-if="!isAuthenticated" class="nav-item">
           <router-link to="/login" class="nav-link" active-class="active"> Login </router-link>
         </li>
